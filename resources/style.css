@@ -1,0 +1,64 @@
+html {
+    width: 100%;
+}
+
+
+body {
+    background-image: linear-gradient(to bottom right, #c5d8de, #e9d8e5, #d8c5de, #d8dfe9, #d9e9d8, #c5d8de, #e9d8e5, #d8c5de, #d8dfe9, #d9e9d8);
+    margin: 0;
+}
+
+header {
+    height: 900px;
+     display: grid;
+     grid-template-rows: repeat(8, 1fr);
+     grid-template-columns: repeat(12, 1fr);
+}
+
+h1 {
+    color: white;
+    font-family: 'Bagel Fat One';
+    grid-column-start: 4;
+    grid-column-end: 10;
+    font-size: 100px;
+    margin: 0;
+}
+
+#h1-top {
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+#h1-bottom {
+    grid-row-start: 4;
+    grid-row-end: 4;
+    
+}
+img {
+    height: 100px;
+    width: 125px;
+}
+
+#b-right-sparkle {
+    grid-row: 4/ 4;
+    grid-column: 8/ 8;
+}
+
+#t-left-sparkle {
+    grid-row: 3/ 3;
+    grid-column: 3/ 3;
+}
+
+nav {
+    grid-column: 4/ 8;
+    font-size: 25px;
+    background-color: rgba(225, 225, 225, 0.851);
+    border-radius: 30px;
+}
+
+
+li {
+    list-style: none;
+    display: inline;
+    margin-left: 45px;
+}

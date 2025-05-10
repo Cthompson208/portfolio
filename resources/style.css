@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     width: 100%;
 }
@@ -6,59 +10,169 @@ html {
 body {
     background-image: linear-gradient(to bottom right, #c5d8de, #e9d8e5, #d8c5de, #d8dfe9, #d9e9d8, #c5d8de, #e9d8e5, #d8c5de, #d8dfe9, #d9e9d8);
     margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 100%;
 }
 
 header {
-    height: 900px;
-     display: grid;
-     grid-template-rows: repeat(8, 1fr);
-     grid-template-columns: repeat(12, 1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
     color: white;
     font-family: 'Bagel Fat One';
-    grid-column-start: 4;
-    grid-column-end: 10;
-    font-size: 100px;
-    margin: 0;
-}
-
-#h1-top {
-    grid-row-start: 3;
-    grid-row-end: 3;
-}
-
-#h1-bottom {
-    grid-row-start: 4;
-    grid-row-end: 4;
-    
-}
-img {
-    height: 100px;
-    width: 125px;
-}
-
-#b-right-sparkle {
-    grid-row: 4/ 4;
-    grid-column: 8/ 8;
-}
-
-#t-left-sparkle {
-    grid-row: 3/ 3;
-    grid-column: 3/ 3;
+    text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000, 1px 1px 2px #000;
+    font-size: 120px;
+    text-align: center;
+    margin-top: 300px;
 }
 
 nav {
-    grid-column: 4/ 8;
-    font-size: 25px;
-    background-color: rgba(225, 225, 225, 0.851);
+    background-color: rgba(255, 255, 255, 0.734);
     border-radius: 30px;
+    box-shadow: 0px 2px 3px #000;
+    width: 35%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
 }
 
 
 li {
     list-style: none;
-    display: inline;
-    margin-left: 45px;
+}
+
+li a {
+    font-size: 25px;
+}
+
+p {
+    font-size: 50px;
+    line-height: 80px;
+    visibility: hidden;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 350px){
+    h1 {
+        font-size: 35px;
+    }
+
+    nav {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 400px){
+    h1 {
+        font-size: 40px;
+    }
+
+    nav {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 450px){
+    h1 {
+        font-size: 45px;
+    }
+
+    nav {
+        width: 65%;
+    }
+}
+
+@media only screen and (min-width:450px) and (max-width: 500px){
+    h1 {
+        font-size: 50px;
+    }
+
+    nav {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 550px){
+    h1 {
+        font-size: 55px;
+    }
+
+    nav {
+        width: 55%;
+    }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 600px){
+    h1 {
+        font-size: 60px;
+    }
+
+    nav {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 650px){
+    h1 {
+        font-size: 75px;
+    }
+
+    nav {
+        width: 45%;
+    }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 875px){
+    h1 {
+        font-size: 80px;
+    }
+
+    nav {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 875px) and (max-width: 1100px){
+    h1 {
+        font-size: 90px;
+    }
+
+    nav {
+        width: 35%;
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1550px){
+    h1 {
+        font-size: 100px;
+    }
+
+    nav {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 1550px) and (max-width: 2000px){
+    nav {
+        width: 25%;
+    }
+
+    h1 {
+        font-size: 110px;
+    }
+}
+
+@media only screen and (min-width: 2000px) and (max-width: 3000px){
+    nav {
+        width: 20%;
+    }
 }

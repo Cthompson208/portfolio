@@ -15,11 +15,11 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li id="about_link"><a href="#" target="_self">About</a></li>
-                <li id="projects_link"><a href="#" target="_self">Projects</a></li>
-                <li id="skills_link"><a href="#" target="_self">Skills</a></li>
-                <li id="contact_link"><a href="#" target="_self">Contact</a></li>
+            <ul id="nav_ul">
+                <li class="nav_li" id="about_link"><a href="#about_sec" target="_self">About</a></li>
+                <li class="nav_li" id="skills_link"><a href="#skill_sec" target="_self">Skills</a></li>
+                <li class="nav_li" id="projects_link"><a href="#project_sec" target="_self">Projects</a></li>
+                <li class="nav_li" id="contact_link"><a href="#contact_sec" target="_self">Contact</a></li>
             </ul>
         </nav>
         <div class="sparkles_div">
@@ -27,16 +27,87 @@
             <img src="./resources/images/0.5x/Artboard 1@0.5x.png" id="middle_sparkle" class="sparkle">
             <img src="./resources/images/0.5x/Artboard 1@0.5x.png" id="right_sparkle" class="sparkle">
         </div>
-        <h1 id="h1-top">Hi! I'm Cheyenne.<br>A Designer.</h1>
+        <h1 id="h1-top">Hi! I'm Cheyenne.<br>A Web Designer.</h1>
     </header>
     <main>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-</p>
+        <section class="sec_container" id="about_sec">
+            <h2>About Me</h2>
+            <div class="a_container" id="about_box">
+                <h3>Introduction</h3>
+                <p>Hi there! My name is Cheyenne and I'm a 24 year old beginner web developer! I'm from Post Falls, Idaho, and I started learning
+                    to code about a year and a half ago. Currently I am still taking courses online with 
+                    <em><a href="https://www.codecademy.com/?utm_id=t_kwd-78958985904710:loc-4094:ag_1263339270701571:cp_370028884:n_o:d_c&msclkid=c14122a859401d9666bd4a88b7cd63aa&utm_source=bing&utm_medium=cpc&utm_campaign=US_Brand_Exact&utm_term=codecademy&utm_content=Codecademy" target="_blank">Codecademy.com</a></em>.
+                    So far, I have taken courses in HTML, CSS, and JavaScript, learning how to build accessible and responsive websites.
+                    While I have been focused soley on front-end development so far, once I am confident in my front-end skills I plan to 
+                    shift my focus to learning more about the back-end of web development. My goal is become a well versed full-stack engineer!
+                </p>
+            </div>
+            <div class="a_container" id="inspo_box">
+                <h3>Inspiration</h3>
+                <p>
+                    Fun Fact: I was inspired to get into programming because of the show <em>Criminal Minds</em>, a show about an FBI team catching
+                    serial killers! How on earth does that have anything to do with computers you ask? Well my favorite character on the show, Penelope Garcia,
+                    was the teams technical anaylst, and she was a badass. Ms. Garcia could do anything on a computer and was arguably the most important
+                    member of the BAU! Since I grew up watching this show with my mom I have very fond memories of it, and the desire to become as smart
+                    cool as Garcia has stuck with me through my life!
+                </p>
+            </div>
+            <div class="a_container" id="experience_box">
+                <h3>Experience</h3>
+                <p>Zero. I have zero real life work experience so far. But everyone has to start somewhere and for me that somewhere is here!
+                    While I do not yet have any experience collaborating with others or working on a real project for a company, I have completed
+                    several practice projects through 
+                    <em><a href="https://www.codecademy.com/?utm_id=t_kwd-78958985904710:loc-4094:ag_1263339270701571:cp_370028884:n_o:d_c&msclkid=c14122a859401d9666bd4a88b7cd63aa&utm_source=bing&utm_medium=cpc&utm_campaign=US_Brand_Exact&utm_term=codecademy&utm_content=Codecademy" target="_blank">Codecademy.com</a></em>,
+                    and I am familiar with Git and GitHub. Although I lack the confidence to apply for a real project now, I plan to keep working and honing
+                    my skills so that I feel prepared for whatever may come my way!
+                </p>
+            </div>
+        </section>
+        <section class="sec_container" id="skill_sec">
+            <h2>Skills</h2>
+            <div class="s_container" id="skills_box">
+                <h3>Languages</h3>
+                <p>A list of languages I am experienced in:</p>
+                <ul>
+                    <li class="skill_li">HTML</li>
+                    <li class="skill_li">CSS</li>
+                    <li class="skill_li">JavaScript</li>
+                    <li class="skill_li">Python*</li>
+                    <li class="skill_li">Liquid*</li>
+                </ul>
+                <aside>
+                    <p>*I have very limited experience with these languages, although I am currently practicing with them on my own.</p>
+                </aside>
+            </div>
+            <div class="s_container" id="game_box">
+                <h3>JS Demo - Rock, Paper, Scissors!</h3>
+            </div>
+        </section>
+        <section class="sec_container" id="project_sec">
+            <h2>Projects</h2>
+            <div class="p_container" id="crackshack">
+                <a href="../CA Business CrackShack/index.html" target="_blank">CrackShack</a>
+            </div>
+            <div class="p_container" id="tea_cozy">
+                <a href="../Tea Cozy Project/index.html" target="_blank">Tea Cozy</a>
+            </div>
+            <div class="p_container" id="occult_club">
+                <a href="../Occult Club!/index.html" target="_blank">Occult Club</a>
+            </div>
+            <div class="p_container" id="fortune_teller">
+                <a href="../fortune-teller/index.html" target="_blank">Fortune Teller</a>
+            </div>
+        </section>
     </main>
+    <footer>
+        <section class="sec_container" id="contact_sec">
+            <h2>Contact</h2>
+            <div id="contatc_info">
+                <p>Cheyenne Thompson</p>
+                <p>Phone: (208)-446-6214</p>
+                <p>Email: cmthompson208@gmail.com</p>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>

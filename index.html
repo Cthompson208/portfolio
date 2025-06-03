@@ -59,7 +59,7 @@
                         serial killers! How on earth does that have anything to do with computers you ask? Well my favorite character on the show, Penelope Garcia,
                         was the teams technical anaylst, and she was a badass. Ms. Garcia could do anything on a computer and was arguably the most important
                         member of the BAU! Since I grew up watching this show with my mom I have very fond memories of it, and the desire to become as smart
-                        cool as Garcia has stuck with me through my life!
+                        and cool as Garcia has stuck with me through my life!
                     </p>
                 </div>
                 <div class="a_container container" id="experience_box">
@@ -93,6 +93,37 @@
                 </div>
                 <div class="s_container container" id="game_box">
                     <h3>JS Demo - Rock, Paper, Scissors!</h3>
+                    <p>This is a very simple game I'm sure everyone knows how to play, however there is a secret option! Try to find the one that <em>blows</em> your opponent away!
+                    Click the Submit button when you're ready and good luck!</p>
+                    <form action="#" method="post">
+                        <label for="choosing">Please type your selection:</label>
+                        <input type="text" name="choosing" id="choosing">
+                    </form>
+                    <button id="submit">Submit</button>
+                    <div class="both_boxes">
+                        <div class="choice" id="computer">
+                            <img id="c_paper_img" class="game_img" src="./resources/images/paper.png" alt="paper">
+                            <img id="c_rock_img" class="game_img" src="./resources/images/rock.png" alt="rock">
+                            <img id="c_scissors_img" class="game_img" src="./resources/images/scissors.png" alt="scissors">
+                            <p class="label">Computer</p>
+                        </div>
+                        <div class="choice" id="user">
+                            <img id="u_paper_img" class="game_img" src="./resources/images/paper.png" alt="paper">
+                            <img id="u_rock_img" class="game_img" src="./resources/images/rock.png" alt="rock">
+                            <img id="u_scissors_img" class="game_img" src="./resources/images/scissors.png" alt="scissors">
+                            <img id="u_bomb_img" class="game_img" src="./resources/images/bomb.png" alt="bomb">
+                            <p class="label">You</p>
+                        </div>
+                    </div>
+                    <div class="results">
+                        <p class="r_text" id="win">You Win!</p>
+                        <p class="r_text" id="lose">You Lose!</p>
+                        <p class="r_text" id="tie">It's a Tie!</p>
+                        <p class="r_text" id="blown_up">You Crushed It!</p>
+                    </div>
+                    <div class="counter">
+                        <p>Counter: <span id="counter_num">0</span></p>
+                    </div>
                 </div>
             </div>
         </section>

@@ -151,6 +151,131 @@ h3 {
     width: 40%;
 }
 
+#skills_box {
+    height: fit-content;
+}
+
+#s_block {
+    flex-flow: column;
+    align-items: center;
+}
+
+.both_boxes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.choice {
+    border: solid 3px #000;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+    align-items: center;
+}
+
+.game_img {
+    width: 96%;
+    height: 96%;
+}
+
+#c_paper_img {
+    position: relative;
+    visibility: hidden;
+}
+
+#c_rock_img {
+    position: absolute;
+    visibility: hidden;
+}
+
+#c_scissors_img {
+    position: absolute;
+    visibility: hidden;
+}
+
+#u_bomb_img {
+    position: absolute;
+    visibility: hidden;
+}
+
+#u_paper_img {
+    position: relative;
+    visibility: hidden;
+}
+
+#u_rock_img {
+    position: absolute;
+    visibility: hidden;
+}
+
+#u_scissors_img {
+    position: absolute;
+    visibility: hidden;
+}
+
+.label {
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Sour Gummy';
+}
+
+#game_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    margin-bottom:
+    20px;
+}
+
+.results {
+    position: relative;
+}
+
+.r_text {
+    top: 30px;
+    left: 30px;
+    font-size: 30px;
+}
+
+#win {
+    position: absolute;
+    visibility: hidden;
+}
+
+#lose {
+    position: absolute;
+    visibility: hidden;
+}
+
+#tie {
+    position: absolute;
+    visibility: hidden;
+}
+
+#blown_up {
+    visibility: hidden;
+}
+
+.counter {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+label {
+    font-family: 'Sour Gummy';
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+#submit {
+    margin-bottom: 30px;
+}
+
 @media only screen and (min-width: 300px) and (max-width: 350px){
     h1 {
         font-size: 35px;

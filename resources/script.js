@@ -39,41 +39,6 @@ const getComputerChoice = () => {
 }
 
 const determineWinner = (userChoice, computerChoice) => {
-  if (userChoice === 'bomb') {
-    userBombImg.style.visibility = 'visible';
-    userPaperImg.style.visibility = 'hidden';
-    userRockImg.style.visibility = 'hidden';
-    userScissorsImg.style.visibility = 'hidden';
-    if (computerChoice === 'rock') {
-        c++;
-        computerRockImg.style.visibility = 'visible';
-        computerPaperImg.style.visibility = 'hidden';
-        computerScissorsImg.style.visibility = 'hidden';
-        winTextstyle.visibility = 'hidden';
-        loseText.style.visibility = 'hidden';
-        tieText.style.visibility = 'hidden';
-        bombText.style.visibility = 'visible';
-    } else if (computerChoice === 'paper') {
-        c++;
-        computerPaperImg.style.visibility = 'visible';
-        computerRockImg.style.visibility = 'hidden';
-        computerScissorsImg.style.visibility = 'hidden';
-        winTextstyle.visibility = 'hidden';
-        loseText.style.visibility = 'hidden';
-        tieText.style.visibility = 'hidden';
-        bombText.style.visibility = 'visible';
-    } else if (computerChoice === 'scissors') {
-        c++;
-        computerScissorsImg.style.visibility = 'visible';
-        computerPaperImg.style.visibility = 'hidden';
-        computerRockImg.style.visibility = 'hidden';
-        winTextstyle.visibility = 'hidden';
-        loseText.style.visibility = 'hidden';
-        tieText.style.visibility = 'hidden';
-        bombText.style.visibility = 'visible';
-    }
-  }
-
   if (userChoice === 'rock') {
     userRockImg.style.visibility = 'visible';
     userBombImg.style.visibility = 'hidden';
@@ -172,6 +137,42 @@ const determineWinner = (userChoice, computerChoice) => {
         c++;
     }
   }
+
+  if (userChoice === 'bomb') {
+    userScissorsImg.style.visibility = 'hidden';
+    userBombImg.style.visibility = 'visible';
+    userPaperImg.style.visibility = 'hidden';
+    userRockImg.style.visibility = 'hidden';
+    if (computerChoice === 'rock') {
+      computerRockImg.style.visibility = 'visible';
+      computerPaperImg.style.visibility = 'hidden';
+      computerScissorsImg.style.visibility = 'hidden';
+      loseText.style.visibility = 'hidden';
+      winText.style.visibility = 'hidden';
+      tieText.style.visibility = 'hidden';
+      bombText.style.visibility = 'visible';
+      c++;
+    } else if (computerChoice === 'scissors') {
+        computerScissorsImg.style.visibility = 'visible';
+        computerPaperImg.style.visibility = 'hidden';
+        computerRockImg.style.visibility = 'hidden';
+        tieText.style.visibility = 'hidden';
+        winText.style.visibility = 'hidden';
+        loseText.style.visibility = 'hidden';
+        bombText.style.visibility = 'visible';
+        c++;
+    } else if (computerChoice === 'paper') {
+        computerPaperImg.style.visibility = 'visible';
+        computerRockImg.style.visibility = 'hidden';
+        computerScissorsImg.style.visibility = 'hidden';
+        winText.style.visibility = 'hidden';
+        loseText.style.visibility = 'hidden';
+        tieText.style.visibility = 'hidden';
+        bombText.style.visibility = 'visible';
+        c++;
+    }
+  }
+
 };
 
 const playGame = () => {

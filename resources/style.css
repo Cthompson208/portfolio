@@ -136,8 +136,6 @@ h3 {
 .a_container {
     line-height: 25px;
     width: 30%;
-    min-width: 450px;
-    max-height: 800px;
     text-align: center;
 }
 
@@ -334,7 +332,7 @@ label {
     width: 60%;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 350px){
+@media only screen and (max-width: 350px){
     h1 {
         font-size: 35px;
         margin-top: 15px;
@@ -351,6 +349,41 @@ label {
 
     .sparkles_div {
         margin-top: 115px;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .choice {
+        width: 47%;
+    }
+
+    .both_boxes {
+        width: 100%;
+    }
+
+    #game_box {
+        padding: 15px 0px;
+    }
+
+    #game_box p {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #game_box form {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    input {
+        margin-top: 15px;
     }
 }
 
@@ -372,6 +405,46 @@ label {
     .sparkles_div {
         margin-top: 125px;
     }
+
+    .container {
+        width: 85%;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .choice {
+        width: 47%;
+    }
+
+    .both_boxes {
+        width: 100%;
+    }
+
+    #game_box {
+        padding: 15px 0px;
+    }
+
+    #game_box p {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #game_box form {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #game_box h3 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    input {
+        margin-top: 15px;
+    }
 }
 
 @media only screen and (min-width: 400px) and (max-width: 450px){
@@ -392,6 +465,46 @@ label {
     .sparkles_div {
         margin-top: 150px;
     }
+
+    .container {
+        width: 80%;
+    }
+
+    h2 {
+        font-size: 35px;
+        margin-top: 60px;
+    }
+
+    .choice {
+        width: 45%;
+    }
+
+    .both_boxes {
+        width: 100%;
+    }
+
+    #game_box {
+        padding: 15px 0px;
+    }
+
+    #game_box p {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #game_box form {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #game_box h3 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    input {
+        margin-top: 15px;
+    }
 }
 
 @media only screen and (min-width:450px) and (max-width: 500px){
@@ -410,6 +523,46 @@ label {
 
     .sparkles_div {
         margin-top: 150px;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    h2 {
+        font-size: 38px;
+        margin-top: 80px;
+    }
+
+    .choice {
+        width: 40%;
+    }
+
+    .both_boxes {
+        width: 100%;
+    }
+
+    #game_box {
+        padding: 15px 0px;
+    }
+
+    #game_box p {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #game_box form {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #game_box h3 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    input {
+        margin-top: 15px;
     }
 }
 
@@ -430,6 +583,27 @@ label {
     .sparkles_div {
         margin-top: 160px;
     }
+
+    .container {
+        width: 75%;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-top: 80px;
+    }
+
+    .both_boxes {
+        width: 100%;
+    }
+
+    .choice {
+        width: 48%;
+    }
+
+    input {
+        margin-top: 15px;
+    }
 }
 
 @media only screen and (min-width: 550px) and (max-width: 600px){
@@ -448,6 +622,19 @@ label {
 
     .sparkles_div {
         margin-top: 170px;
+    }
+
+    .container {
+        width: 70%;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-top: 80px;
+    }
+
+    input {
+        margin-top: 15px;
     }
 }
 
@@ -468,6 +655,19 @@ label {
     .sparkles_div {
         margin-top: 180px;
     }
+
+    .container {
+        width: 65%;
+    }
+
+    h2 {
+        font-size: 45px;
+        margin-top: 85px;
+    }
+
+    input {
+        margin-top: 15px;
+    }
 }
 
 @media only screen and (min-width: 650px) and (max-width: 875px){
@@ -487,6 +687,18 @@ label {
     .sparkles_div {
         margin-top: 190px;
     }
+
+    .container {
+        width: 60%;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    input {
+        margin-top: 15px;
+    }
 }
 
 @media only screen and (min-width: 875px) and (max-width: 1100px){
@@ -497,6 +709,14 @@ label {
     nav {
         width: 35%;
     }
+
+    .a_container {
+        width: 40%;
+    }
+
+    .s_container {
+        width: 60%;
+    }
 }
 
 @media only screen and (min-width: 1100px) and (max-width: 1550px){
@@ -506,6 +726,14 @@ label {
 
     nav {
         width: 30%;
+    }
+
+    .a_container {
+        width: 45%;
+    }
+
+    .s_container {
+        width: 60%;
     }
 }
 
